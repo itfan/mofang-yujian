@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black" 
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/meet_game_centre_image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/meet_default_image" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/meet_game_centre_parent"
+            android:layout_width="fill_parent"
+            android:layout_height="112dip"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/meet_half_transf"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/meet_game_centre_matching_layout"
+                android:layout_width="92dip"
+                android:layout_height="92dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dip"
+                android:background="@drawable/meet_r0"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/meet_game_centre_matching"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="15dip"
+                    android:layout_marginLeft="17dip"
+                    android:layout_marginRight="17dip"
+                    android:layout_marginTop="24dip"
+                    android:background="@drawable/meet_heart"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dip"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:layout_width="90dip"
+                        android:layout_height="14dip"
+                        android:background="@drawable/meet_pro_back" >
+
+                        <LinearLayout
+                            android:id="@+id/meet_game_centre_appearance_layout"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/c_f98800"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/meet_game_centre_appearance"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="8dip"
+                                android:singleLine="true"
+                                android:textColor="@color/white"
+                                android:textSize="8sp" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dip"
+                        android:text="@string/appearance"
+                        android:textColor="@color/c_f98800"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:layout_width="90dip"
+                        android:layout_height="14dip"
+                        android:background="@drawable/meet_pro_back" >
+
+                        <LinearLayout
+                            android:id="@+id/meet_game_centre_fate_matching_layout"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/c_97e019"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                 android:id="@+id/meet_game_centre_fate_matching"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="8dip"
+                                android:singleLine="true"
+                                android:textColor="@color/white"
+                                android:textSize="8sp" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dip"
+                        android:text="@string/fate_matching"
+                        android:textColor="@color/c_97e019"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:layout_width="90dip"
+                        android:layout_height="14dip"
+                        android:background="@drawable/meet_pro_back" >
+
+                        <LinearLayout
+                            android:id="@+id/meet_game_centre_constellation_layout"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/c_00c6ff"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/meet_game_centre_constellation"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="8dip"
+                                android:singleLine="true"
+                                android:textColor="@color/white"
+                                android:textSize="8sp" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dip"
+                        android:text="@string/constellation"
+                        android:textColor="@color/c_00c6ff"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/meet_game_centre_parent" >
+
+            <ProgressBar
+                android:id="@+id/meet_game_centre_progress"
+                android:layout_width="24dip"
+                android:layout_height="24dip"
+                android:layout_centerInParent="true"
+                android:indeterminate="true"
+                android:indeterminateDrawable="@drawable/pull_ref_pb" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="5dip"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/meet_game_centre_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:shadowColor="@color/c_ff000000"
+                        android:shadowDx="2.0"
+                        android:shadowDy="2.0"
+                        android:shadowRadius="2.0"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <RelativeLayout
+                        android:id="@+id/meet_game_centre_sex_age_layout"
+                        android:layout_width="38dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="1dip" >
+
+                        <TextView
+                            android:id="@+id/meet_game_centre_age"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:paddingLeft="4dip"
+                            android:textColor="@color/c_3e3e3e"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/meet_game_centre_sex"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:paddingRight="4dip" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/meet_game_centre_signature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:shadowColor="@color/c_ff000000"
+                    android:shadowDx="2.0"
+                    android:shadowDy="2.0"
+                    android:shadowRadius="2.0"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>

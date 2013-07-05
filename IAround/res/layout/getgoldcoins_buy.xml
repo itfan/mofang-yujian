@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/pay_title_bg"
+            android:paddingBottom="8dip"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:paddingTop="8dip"
+            android:text="@string/pay_title_buy"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/c_ffe9e9e9" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="8dip" >
+
+            <ImageView
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:scaleType="centerInside"
+                android:src="@drawable/pay_buy_1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dip"
+                    android:text="一把现金"
+                    android:textColor="@color/c_3e3e3e"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dip"
+                    android:text="1300"
+                    android:textColor="@color/red" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buy_btn1"
+                android:layout_width="75dip"
+                android:layout_height="30dip"
+                android:background="@drawable/pay_buy_btn_bg"
+                android:gravity="center"
+                android:text="￥10.0"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/c_ffe9e9e9" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="8dip" >
+
+            <ImageView
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:scaleType="centerInside"
+                android:src="@drawable/pay_buy_2" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dip"
+                    android:text="一盒现金"
+                    android:textColor="@color/c_3e3e3e"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dip"
+                    android:text="4000"
+                    android:textColor="@color/red" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buy_btn2"
+                android:layout_width="75dip"
+                android:layout_height="30dip"
+                android:background="@drawable/pay_buy_btn_bg"
+                android:gravity="center"
+                android:text="￥30.0"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/c_ffe9e9e9" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="8dip" >
+
+            <ImageView
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:scaleType="centerInside"
+                android:src="@drawable/pay_buy_3" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dip"
+                    android:text="一包现金"
+                    android:textColor="@color/c_3e3e3e"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dip"
+                    android:text="8000"
+                    android:textColor="@color/red" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buy_btn3"
+                android:layout_width="75dip"
+                android:layout_height="30dip"
+                android:background="@drawable/pay_buy_btn_bg"
+                android:gravity="center"
+                android:text="￥50.0"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/c_ffe9e9e9" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="8dip" >
+
+            <ImageView
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:scaleType="centerInside"
+                android:src="@drawable/pay_buy_4" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dip"
+                    android:text="一袋现金"
+                    android:textColor="@color/c_3e3e3e"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dip"
+                    android:text="18000"
+                    android:textColor="@color/red" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buy_btn4"
+                android:layout_width="75dip"
+                android:layout_height="30dip"
+                android:background="@drawable/pay_buy_btn_bg"
+                android:gravity="center"
+                android:text="￥100.0"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/c_ffe9e9e9" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="8dip" >
+
+            <ImageView
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:scaleType="centerInside"
+                android:src="@drawable/pay_buy_5" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dip"
+                    android:text="一箱现金"
+                    android:textColor="@color/c_3e3e3e"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dip"
+                    android:text="58000"
+                    android:textColor="@color/red" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buy_btn5"
+                android:layout_width="75dip"
+                android:layout_height="30dip"
+                android:background="@drawable/pay_buy_btn_bg"
+                android:gravity="center"
+                android:text="￥300.0"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/c_ffe9e9e9" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="8dip" >
+
+            <ImageView
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:scaleType="centerInside"
+                android:src="@drawable/pay_buy_6" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dip"
+                    android:text="一堆现金"
+                    android:textColor="@color/c_3e3e3e"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dip"
+                    android:text="100000"
+                    android:textColor="@color/red" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buy_btn6"
+                android:layout_width="75dip"
+                android:layout_height="30dip"
+                android:background="@drawable/pay_buy_btn_bg"
+                android:gravity="center"
+                android:text="￥500.0"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/c_ffe9e9e9" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="8dip" >
+
+            <ImageView
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:scaleType="centerInside"
+                android:src="@drawable/pay_buy_7" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dip"
+                    android:text="一车现金"
+                    android:textColor="@color/c_3e3e3e"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dip"
+                    android:text="230000"
+                    android:textColor="@color/red" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buy_btn7"
+                android:layout_width="75dip"
+                android:layout_height="30dip"
+                android:background="@drawable/pay_buy_btn_bg"
+                android:gravity="center"
+                android:text="￥1000.0"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/c_ffe9e9e9" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/pay_buy_more"
+            android:textColor="@color/c_777777"
+            android:textStyle="bold"
+            android:padding="4dip" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:iaround="http://schemas.android.com/apk/res/net.iaround.android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/c_f5f5f5"
+    android:orientation="vertical" >
+
+    <net.iaround.android.ui.common.IARActionBar
+        android:id="@+id/contact_action_bar"
+        iaround:style="menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        iaround:icon="@drawable/side_bar_icon_current_oline"
+        iaround:menu="@drawable/friend_delet"
+        iaround:title="@string/chat_near_contact" >
+    </net.iaround.android.ui.common.IARActionBar>
+
+    <LinearLayout
+        android:id="@+id/contact_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:clickable="true" >
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">遇见</string>
+    <string name="dialog_title">提示</string>
+    <string name="dialog_exit">您真的要退出？</string>
+    <string name="ok">确定</string>
+    <string name="exit_iaround">退出遇见</string>
+    <string name="cancel">取消</string>
+    <string name="content_description"></string>
+    <string name="authorization_is_not_supported">暂时不支持授权功能</string>
+    <string name="about">关于</string>
+    <string name="enter_id_or_email">请输入遇见ID或邮箱地址</string>
+    <string name="enter_registering_password">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="register_account_new">注册遇见账号</string>
+    <string name="find_password_new">忘记密码</string>
+    <string name="login_with_others">其他登录方式</string>
+    <string name="prompt">提示</string>
+    <string name="do_you_really_want_to_quit">您真的要退出?</string>
+    <string name="positive">确定</string>
+    <string name="negative">取消</string>
+    <string name="verson">for&#160;Android&#160;版本:&#160;2.4.1</string>
+    <string name="visit_app_website">访问遇见官方网站</string>
+    <string name="visit_app_weibo">访问官方微博</string>
+    <string name="customer_service_hotline">客服电话&#160;020&#8211;85618349</string>
+    <string name="customer_service_mail">客服邮箱&#160;cs@iaround.com</string>
+    <string name="copyright_string">遇见科技&#160;&#160;版权所有</string>
+    <string name="company_name">Guangzhou iAround Network Technology Co.,Ltd</string>
+    <string name="no_have_url">暂时无法获得请求地址</string>
+    <string name="please_enter_your_regitered_email_add">请输入您的注册邮箱</string>
+    <string name="find_password_directions">密码重置链接将发送到您注册的邮箱里</string>
+    <string name="reset_password">重置密码</string>
+    <string name="user_name">樱花草,</string>
+    <string name="nearby_focus">附近焦点</string>
+    <string name="do_you_want_to_appear_in_this">你想在这出现吗?</string>
+    <string name="users_near_you">您附近的用户</string>
+    <string name="bid">出价</string>
+    <string name="do_you_want_to_meet">想和TA见面吗?</string>
+    <string name="want_to_meet">想认识</string>
+    <string name="her_file">个人档案</string>
+    <string name="sent_gift">送礼传情</string>
+    <string name="want">想 !</string>
+    <string name="dont_want">不想</string>
+    <string name="appearance">合拍度</string>
+    <string name="constellation">活跃度</string>
+    <string name="fate_matching">机缘度</string>
+    <string name="i_am_the_focus">全球焦点</string>
+    <string name="nearby_focus_bid">附近焦点出价</string>
+    <string name="nearby_focus_directions_1">上“附近焦点”赢得附近用户关注</string>
+    <string name="nearby_focus_directions_2">您每次可以展示&lt;font color=#ff9a00>6&lt;/font>个小时</string>
+    <string name="nearby_focus_price">此服务需要&lt;font color=#ff0000>2000&lt;/font>金币</string>
+    <string name="see_meetuser_info">查看TA的档案</string>
+    <string name="become_vip_can_see">成为VIP会员才能查看TA的档案哦!</string>
+    <string name="to_be_vip">成为VIP</string>
+    <string name="vip_Privilege">VIP特权</string>
+    <string name="meet_message_send">约见心意已传达</string>
+    <string name="people_want_meet_you">想见你的人</string>
+    <string name="no_meet_user">"可惜,暂时还没有人想见你,
+尽量能多完善一下个人资料,
+被推荐的几率才会更多哦!"</string>
+    <string name="get_vip_rightnow">立刻获取金币</string>
+    <string name="become_vip">成为遇见VIP 会员您可获得以下特权:</string>
+    <string name="vip_showvip1">您只需要购买&lt;font color=#ff9a00>任意金币&lt;/font></string>
+    <string name="vip_showvip2">即可成为&lt;font color=#671A10>VIP会员&lt;/font></string>
+    <string name="friend_search">高级搜索</string>
+    <string name="friend_search_num">按号码搜索</string>
+    <string name="friend_please_enter_num">请输入对方的ID</string>
+    <string name="friend_search_nickname">按姓名搜索</string>
+    <string name="friend_please_enter_nickname">请输入对方的昵称</string>
+    <string name="friend_search_conditions">按条件搜索</string>
+    <string name="age">年龄</string>
+    <string name="gender">性别</string>
+    <string name="distance">距离</string>
+    <string name="online">在线</string>
+    <string name="unlimited">不限</string>
+    <string name="message_center">最新动态</string>
+    <string name="dynamic_whosawme">查看了你的个人资料</string>
+    <string name="my_relationship">联系人</string>
+    <string name="chat_near_contact">会话</string>
+    <string name="friend">好友</string>
+    <string name="following">关注</string>
+    <string name="fans">粉丝</string>
+    <string name="black_list">黑名单</string>
+    <string name="friend_near_contact_all_read">标记全部为已读</string>
+    <string name="friend_near_contact_del_all">删除所有消息</string>
+    <string name="current_online">当前在线</string>
+    <string name="current_offline">当前离线</string>
+    <string name="no_content_follow">您还没有关注任何人哦！</string>
+    <string name="no_content_fans">"还有没有人成为您的粉丝，
+是不是个人资料完善得太少了呢？"</string>
+    <string name="no_content_black">"嘿嘿还好，还没有
+被您加入黑名单！"</string>
+    <string name="get_gold_coins">获取金币</string>
+    <string name="pay_title_total">在线时长</string>
+    <string name="pay_title_continu">连续登录</string>
+    <string name="pay_title_buy">购买金币</string>
+    <string name="pay_title_sina">绑定新浪微博</string>
+    <string name="pay_current_count">&lt;font color=#ff7800>当前金币&lt;/font>:%s</string>
+    <string name="pay_total_str1">您今日在线时间为%1$s小时%2$s分</string>
+    <string name="pay_total_gold">普通用户每次可领取&lt;font color=#ff0000>%s&lt;/font>金币</string>
+    <string name="pay_total_vipgold">VIP会员每次可领取&lt;font color=#ff0000>%s&lt;/font>金币</string>
+    <string name="pay_total_str3">领取要求</string>
+    <string name="pay_total_str4">奖励</string>
+    <string name="pay_total_str5">今日在线时间累计%s分钟</string>
+    <string name="pay_total_str6">已领取</string>
+    <string name="pay_total_str7">马上领取</string>
+    <string name="pay_total_str8">不能领取</string>
+    <string name="pay_getgold_success">恭喜您，领取成功！</string>
+    <string name="pay_login_str1">今日奖励金币：%s</string>
+    <string name="pay_login_str2">连续登录%s天</string>
+    <string name="pay_login_str3">连续登录%s天以上</string>
+    <string name="pay_login_str4">连续登录天数</string>
+    <string name="pay_login_str5">您已经连续登录%s天</string>
+    <string name="pay_login_str6">奖励预告</string>
+    <string name="pay_continu_vip">VIP</string>
+    <string name="pay_continu_ordinary">普通</string>
+    <string name="pay_continu_gold">(金币)</string>
+    <string name="pay_buy_more">更多金额充值，请到官网 www.iaround.com</string>
+    <string name="pay_bind_sina_str2">您还未绑定微博，点击图标绑定吧！</string>
+</resources>

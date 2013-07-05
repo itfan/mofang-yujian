@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/nearby_grid_item_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/head" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/nearby_grid_item_avatar"
+        android:layout_alignLeft="@+id/nearby_grid_item_avatar"
+        android:layout_alignRight="@+id/nearby_grid_item_avatar"
+        android:background="@color/c_aa000000"
+        android:orientation="horizontal"
+        android:padding="2dip" 
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/nearby_grid_item_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.11km"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/nearby_grid_item_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dip"
+            android:scaleType="centerInside" 
+            android:src="@drawable/female"/>
+    </LinearLayout>
+
+</RelativeLayout>

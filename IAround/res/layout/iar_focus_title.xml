@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:iaround="http://schemas.android.com/apk/res/net.iaround.android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/focus_top_item_back" >
+
+    <net.iaround.android.ui.common.IARFocusImageView
+        android:id="@+id/image_left"
+        android:layout_width="100dip"
+        android:layout_height="115dip"
+        android:layout_alignBottom="@+id/image"
+        android:layout_marginBottom="8dip"
+        android:layout_marginRight="-8dip"
+        android:layout_toLeftOf="@+id/image"
+        iaround:marginBottom="@dimen/focus_title_image_left_or_right_margin" />
+
+    <net.iaround.android.ui.common.IARFocusImageView
+        android:id="@+id/image_right"
+        android:layout_width="100dip"
+        android:layout_height="115dip"
+        android:layout_alignBottom="@+id/image"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="-8dip"
+        android:layout_toRightOf="@+id/image"
+        iaround:marginBottom="@dimen/focus_title_image_left_or_right_margin" />
+
+    <net.iaround.android.ui.common.IARFocusImageView
+        android:id="@+id/image"
+        android:layout_width="130dip"
+        android:layout_height="150dip"
+        android:layout_above="@+id/bottom"
+        android:layout_centerHorizontal="true"
+        iaround:marginBottom="@dimen/focus_title_image_margin" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/image"
+        android:layout_alignTop="@+id/image"
+        android:layout_marginRight="-15dip"
+        android:layout_marginTop="-15dip"
+        android:src="@drawable/focus_top_item_crown" />
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <net.iaround.android.ui.common.IARFocusImageView
+            android:id="@+id/image_1"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            iaround:marginBottom="@dimen/focus_title_images_margin" />
+
+        <net.iaround.android.ui.common.IARFocusImageView
+            android:id="@+id/image_2"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            iaround:marginBottom="@dimen/focus_title_images_margin" />
+
+        <net.iaround.android.ui.common.IARFocusImageView
+            android:id="@+id/image_3"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            iaround:marginBottom="@dimen/focus_title_images_margin" />
+
+        <net.iaround.android.ui.common.IARFocusImageView
+            android:id="@+id/image_4"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            iaround:marginBottom="@dimen/focus_title_images_margin" />
+    </LinearLayout>
+
+</RelativeLayout>

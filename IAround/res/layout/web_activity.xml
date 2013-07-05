@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:iaround="http://schemas.android.com/apk/res/net.iaround.android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <net.iaround.android.ui.common.IARActionBar
+        android:id="@+id/action_bar"
+        iaround:style="title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </net.iaround.android.ui.common.IARActionBar>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <WebView
+            android:id="@+id/web"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/pull_ref_pb" />
+    </FrameLayout>
+
+</LinearLayout>

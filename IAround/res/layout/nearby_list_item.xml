@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/nearby_list_item_avatar"
+        android:layout_width="75dip"
+        android:layout_height="75dip"
+        android:layout_margin="8dip" />
+
+    <TextView
+        android:id="@+id/nearby_list_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/nearby_list_item_avatar"
+        android:layout_toLeftOf="@+id/nearby_list_item_weibo"
+        android:layout_toRightOf="@+id/nearby_list_item_avatar"
+        android:paddingLeft="4dip"
+        android:paddingBottom="4dip"
+        android:paddingRight="4dip"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/nearby_list_item_weibo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/nearby_list_item_name"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/nearby_list_item_name"
+        android:layout_marginRight="15dip" />
+
+    <LinearLayout
+        android:id="@+id/nearby_list_item_content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nearby_list_item_name"
+        android:layout_below="@+id/nearby_list_item_name"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/nearby_list_item_age_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dip"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/nearby_list_item_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp" 
+                android:paddingLeft="4dip"
+                android:paddingRight="2dip"/>
+
+            <ImageView
+                android:id="@+id/nearby_list_item_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY" 
+                android:layout_marginRight="4dip"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/nearby_list_item_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/c2c2c2"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dip"
+                android:layout_marginRight="4dip"
+                android:text="|"
+                android:textColor="@color/c2c2c2"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/nearby_list_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/c2c2c2"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nearby_list_item_signature"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nearby_list_item_content_layout"
+        android:layout_below="@+id/nearby_list_item_content_layout"
+        android:layout_margin="4dip"
+        android:ellipsize="end"
+        android:gravity="bottom"
+        android:paddingRight="15dip"
+        android:singleLine="true"
+        android:textColor="@color/c2c2c2" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/nearby_list_item_avatar" />
+
+</RelativeLayout>

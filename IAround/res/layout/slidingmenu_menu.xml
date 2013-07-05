@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/c_ff2c2c2e" >
+
+    <ExpandableListView
+        android:id="@+id/menu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@color/transparent"
+        android:childIndicator="@null"
+        android:groupIndicator="@null"
+        android:listSelector="@color/transparent"
+        android:scrollbars="none" 
+        android:childDivider="@drawable/sidebar_seperator">
+    </ExpandableListView>
+
+</LinearLayout>

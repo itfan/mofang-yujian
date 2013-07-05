@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:iaround="http://schemas.android.com/apk/res/net.iaround.android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <net.iaround.android.ui.common.IARActionBar
+        android:id="@+id/getgoldcoins_action_bar"
+        iaround:style="title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        iaround:title="@string/get_gold_coins" >
+    </net.iaround.android.ui.common.IARActionBar>
+
+    <com.viewpagerindicator.TitlePageIndicator
+        android:id="@+id/getgoldcoins_indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/c_ff3d3d3d"
+        android:padding="10dip"
+        iaround:footerColor="@color/c_ffd54938"
+        iaround:footerIndicatorHeight="3dp"
+        iaround:footerIndicatorStyle="underline"
+        iaround:footerLineHeight="1dp"
+        iaround:selectedBold="true"
+        iaround:selectedColor="@color/white"
+        iaround:textColor="@color/c_777777" 
+        iaround:textSize="12sp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/getgoldcoins_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

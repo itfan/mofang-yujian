@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:iaround="http://schemas.android.com/apk/res/net.iaround.android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    android:orientation="vertical" >
+
+    <net.iaround.android.ui.common.IARActionBar
+        android:id="@+id/meet_action_bar"
+        iaround:style="title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        iaround:icon="@drawable/side_bar_icon_wink_bomb"
+        iaround:menu="@drawable/want_meet_you_icon"
+        iaround:title="@string/do_you_want_to_meet" >
+    </net.iaround.android.ui.common.IARActionBar>
+
+    <include
+        android:id="@+id/meet_centre"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        layout="@layout/meetgame_centre" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="65dip"
+        android:layout_marginBottom="2dip"
+        android:layout_marginTop="2dip"
+        android:background="@color/black"
+        android:gravity="center_horizontal" >
+
+        <LinearLayout
+            android:id="@+id/meet_see_file"
+            style="@style/meet_bottom_layout" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/meet_see_file" />
+
+            <TextView
+                style="@style/meet_bottom_text"
+                android:text="@string/her_file" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/meet_send_gift"
+            style="@style/meet_bottom_layout" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/meet_sent_gift" />
+
+            <TextView
+                style="@style/meet_bottom_text"
+                android:text="@string/sent_gift" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/meet_want"
+            style="@style/meet_bottom_layout" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/meet_want" />
+
+            <TextView
+                style="@style/meet_bottom_text"
+                android:text="@string/want" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/meet_no_want"
+            style="@style/meet_bottom_layout" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/meet_no_want" />
+
+            <TextView
+                style="@style/meet_bottom_text"
+                android:text="@string/dont_want" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

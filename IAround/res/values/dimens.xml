@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="slidingmenu_offset">60dip</dimen>
+    <dimen name="shadow_width">20dip</dimen>
+    <dimen name="focus_title_image_margin">20dip</dimen>
+    <dimen name="focus_title_image_left_or_right_margin">15dip</dimen>
+    <dimen name="focus_title_images_margin">10dip</dimen>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:iaround="http://schemas.android.com/apk/res/net.iaround.android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/c_f5f5f5"
+    android:orientation="vertical" >
+
+    <net.iaround.android.ui.common.IARActionBar
+        android:id="@+id/action_bar"
+        iaround:style="title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        iaround:icon="@drawable/side_bar_icon_look_me"
+        iaround:title="@string/message_center" >
+    </net.iaround.android.ui.common.IARActionBar>
+
+    <ListView
+        android:id="@+id/display"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@drawable/divider"
+        android:listSelector="@color/transparent" >
+    </ListView>
+
+</LinearLayout>

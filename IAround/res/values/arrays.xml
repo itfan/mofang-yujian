@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="weibo_name">
+        <item>新浪微博</item>
+        <item>腾讯微博</item>
+        <item>Twitter</item>
+        <item>FackBook</item>
+    </string-array>
+    <string-array name="menu_group_list">
+        <item>找朋友</item>
+        <item>联系</item>
+        <item>广场</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="menu_child_list">
+        <item>邂逅游戏</item>
+        <item>全球焦点</item>
+        <item>附近用户</item>
+        <item>高级搜索</item>
+        <item>联系人</item>
+        <item>最新动态</item>
+        <item>圈子</item>
+        <item>热点</item>
+        <item>更多功能</item>
+        <item>退出遇见</item>
+    </string-array>
+    <string-array name="ages">
+        <item>不限</item>
+        <item>16–22岁</item>
+        <item>23–30岁</item>
+        <item>31–40岁</item>
+        <item>40岁以上</item>
+    </string-array>
+    <string-array name="genders">
+        <item>不限</item>
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string-array name="distances">
+        <item>不限</item>
+        <item>100米以内</item>
+        <item>500米以内</item>
+        <item>1000米以内</item>
+        <item>10000米以内</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/c_f5f5f5"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_friend_bgdrw"
+        android:padding="8dip" >
+
+        <EditText
+            android:id="@+id/contact_friend_enter"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:background="@drawable/search_friend_input"
+            android:drawableLeft="@drawable/friend_search"
+            android:drawablePadding="8dip"
+            android:hint="@string/friend_please_enter_nickname"
+            android:paddingLeft="8dip"
+            android:paddingRight="45dip"
+            android:singleLine="true"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/contact_friend_clear"
+            android:layout_width="40dip"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/contact_friend_enter"
+            android:layout_alignRight="@+id/contact_friend_enter"
+            android:layout_alignTop="@+id/contact_friend_enter"
+            android:layout_margin="2dip"
+            android:background="@drawable/search_friend_clear_button_status"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/contact_friend_display"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@drawable/divider"
+            android:listSelector="@color/transparent" >
+        </ListView>
+
+        <View
+            android:id="@+id/contact_friend_shadow"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#80000000" 
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+</LinearLayout>

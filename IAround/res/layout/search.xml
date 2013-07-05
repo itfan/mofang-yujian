@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:iaround="http://schemas.android.com/apk/res/net.iaround.android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/c_f5f5f5"
+    android:orientation="vertical" 
+    android:clickable="true">
+
+    <net.iaround.android.ui.common.IARActionBar
+        android:id="@+id/action_bar"
+        iaround:style="title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        iaround:icon="@drawable/side_bar_icon_advanced_search"
+        iaround:menu="@drawable/complete_btn"
+        iaround:title="@string/friend_search" >
+    </net.iaround.android.ui.common.IARActionBar>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dip" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:paddingLeft="8dip"
+            android:text="@string/friend_search_num"
+            android:textColor="#ff697287"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:background="@drawable/edittext_status"
+            android:hint="@string/friend_please_enter_num"
+            android:inputType="number"
+            android:maxLength="16"
+            android:padding="8dip"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dip" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:paddingLeft="8dip"
+            android:text="@string/friend_search_conditions"
+            android:textColor="#ff697287"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="42dip"
+            android:background="@drawable/iarlist_item_first_normal"
+            android:gravity="center_vertical"
+            android:padding="8dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/age"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ages"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawablePadding="8dip"
+                android:drawableRight="@drawable/pointer_down"
+                android:gravity="right|center_vertical"
+                android:paddingLeft="50dip"
+                android:text="@string/unlimited"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="42dip"
+            android:background="@drawable/iarlist_item_middle_normal"
+            android:gravity="center_vertical"
+            android:padding="8dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/gender"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/genders"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawablePadding="8dip"
+                android:drawableRight="@drawable/pointer_down"
+                android:gravity="right|center_vertical"
+                android:paddingLeft="50dip"
+                android:text="@string/unlimited"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="42dip"
+            android:background="@drawable/iarlist_item_middle_normal"
+            android:gravity="center_vertical"
+            android:padding="8dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/distance"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/distances"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawablePadding="8dip"
+                android:drawableRight="@drawable/pointer_down"
+                android:gravity="right|center_vertical"
+                android:paddingLeft="50dip"
+                android:text="@string/unlimited"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <CheckedTextView
+            android:id="@+id/online"
+            android:layout_width="fill_parent"
+            android:layout_height="42dip"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:background="@drawable/iarlist_item_last_normal"
+            android:drawableRight="@drawable/iar_cb_drw"
+            android:padding="8dip"
+            android:text="@string/online"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

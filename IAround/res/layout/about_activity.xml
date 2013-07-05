@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:iaround="http://schemas.android.com/apk/res/net.iaround.android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/c_ff2f2f2f"
+    android:orientation="vertical" >
+
+    <net.iaround.android.ui.common.IARActionBar
+        android:id="@+id/about_action_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        iaround:title="@string/about"
+        iaround:style="title" >
+    </net.iaround.android.ui.common.IARActionBar>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/content_description"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/about_title" />
+
+                <Button
+                    android:id="@+id/about_new_features"
+                    android:layout_width="111.0px"
+                    android:layout_height="48.0px"
+                    android:layout_gravity="top|left|center"
+                    android:layout_marginLeft="220.0px"
+                    android:layout_marginTop="140.0px"
+                    android:background="#00000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right|center"
+                    android:layout_marginBottom="16.0dip"
+                    android:layout_marginRight="21.0dip"
+                    android:text="@string/verson"
+                    android:textColor="@color/white"
+                    android:textSize="8.0dip" />
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10.0dip"
+                android:adjustViewBounds="false"
+                android:contentDescription="@string/content_description"
+                android:scaleType="centerInside"
+                android:src="@drawable/about_description"
+                android:visibility="gone" />
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="12.0dip" >
+
+                    <Button
+                        android:id="@+id/about_visit_app_website"
+                        android:layout_width="fill_parent"
+                        android:layout_height="43.0dip"
+                        android:background="@drawable/about_btn_first"
+                        android:gravity="left|center"
+                        android:paddingLeft="12.0dip"
+                        android:paddingRight="12.0dip"
+                        android:singleLine="true"
+                        android:text="@string/visit_app_website"
+                        android:textColor="@color/c_ffcacaca" />
+
+                    <Button
+                        android:id="@+id/about_visit_app_weibo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="43.0dip"
+                        android:background="@drawable/about_btn_middle"
+                        android:gravity="left|center"
+                        android:paddingLeft="12.0dip"
+                        android:paddingRight="12.0dip"
+                        android:singleLine="true"
+                        android:text="@string/visit_app_weibo"
+                        android:textColor="@color/c_ffcacaca" />
+
+                    <Button
+                        android:id="@+id/about_customer_service_hotline"
+                        android:layout_width="fill_parent"
+                        android:layout_height="43.0dip"
+                        android:background="@drawable/about_btn_middle"
+                        android:gravity="left|center"
+                        android:paddingLeft="12.0dip"
+                        android:paddingRight="12.0dip"
+                        android:singleLine="true"
+                        android:text="@string/customer_service_hotline"
+                        android:textColor="@color/c_ffcacaca" />
+
+                    <Button
+                        android:id="@+id/about_customer_service_mail"
+                        android:layout_width="fill_parent"
+                        android:layout_height="43.0dip"
+                        android:background="@drawable/about_btn_last"
+                        android:gravity="left|center"
+                        android:paddingLeft="12.0dip"
+                        android:paddingRight="12.0dip"
+                        android:singleLine="true"
+                        android:text="@string/customer_service_mail"
+                        android:textColor="@color/c_ffcacaca" />
+                </LinearLayout>
+            </ScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/copyright_string"
+                android:textColor="@color/c_ffe9e9e9"
+                android:textSize="8.0dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="13.0dip"
+                android:text="@string/company_name"
+                android:textColor="@color/c_ffababab"
+                android:textSize="8.0dip" />
+        </LinearLayout>
+
+        <include layout="@layout/iar_title_shadow" />
+    </FrameLayout>
+
+</LinearLayout>

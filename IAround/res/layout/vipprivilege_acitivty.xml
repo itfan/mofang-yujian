@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:iaround="http://schemas.android.com/apk/res/net.iaround.android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <net.iaround.android.ui.common.IARActionBar
+        android:id="@+id/action_bar"
+        iaround:style="title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        iaround:title="@string/vip_Privilege" >
+    </net.iaround.android.ui.common.IARActionBar>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@color/c_f5f5f5"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@color/white"
+        android:dividerHeight="1dip"
+        android:listSelector="@color/transparent" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/c_f5f5f5"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dip" >
+
+        <Button
+            android:id="@+id/getgold"
+            android:layout_width="220dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/focus_bid_btn"
+            android:padding="10dip"
+            android:text="@string/get_vip_rightnow"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

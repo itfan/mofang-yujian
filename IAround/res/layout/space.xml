@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:iaround="http://schemas.android.com/apk/res/net.iaround.android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <net.iaround.android.ui.common.IARActionBar
+        iaround:style="user"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        iaround:menu="@drawable/title_flesh"
+        iaround:title="樱花草,"
+        iaround:title2="(10792434)"
+        iaround:visits="访问量:43" >
+    </net.iaround.android.ui.common.IARActionBar>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <include
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/space_content" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/c_ff3d3d3d"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="4dip"
+            android:drawableTop="@drawable/space_toolebar_modifyprofile"
+            android:gravity="center"
+            android:padding="8dip"
+            android:text="修改资料"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="4dip"
+            android:drawableTop="@drawable/space_tool_change_icon"
+            android:gravity="center"
+            android:padding="8dip"
+            android:text="编辑头像"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="4dip"
+            android:drawableTop="@drawable/space_toolbar_upload_image"
+            android:gravity="center"
+            android:padding="8dip"
+            android:text="上传照片"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="4dip"
+            android:drawableTop="@drawable/space_toolbar_change_sign"
+            android:gravity="center"
+            android:padding="8dip"
+            android:text="修改签名"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

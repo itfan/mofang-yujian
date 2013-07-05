@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="black">#ff000000</item>
+    <item type="drawable" name="text_select">#ff0270e9</item>
+    <item type="drawable" name="trans_white">#aaffffff</item>
+    <item type="drawable" name="chat_menu_item_bg_normal">#ff3c3c3c</item>
+    <item type="drawable" name="chat_menu_item_bg_pressed">#ff0482f1</item>
+    <item type="drawable" name="chat_personal_yellow">#fffffef0</item>
+    <item type="drawable" name="chat_face_icon_bg">#ffececec</item>
+    <item type="drawable" name="chat_create_room_more_bg">#ffe9eaea</item>
+    <item type="drawable" name="chat_personal_light_bg">#fff0ebe3</item>
+    <item type="drawable" name="chat_room_classify_item_gray">#fff7f7f7</item>
+    <item type="drawable" name="guide_bg_color">#ff2f2f2f</item>
+    <item type="drawable" name="tap_indicator_bg">#ff3d3d3d</item>
+    <item type="drawable" name="dw_ff3d3d3d">#ff3d3d3d</item>
+    <item type="drawable" name="chat_theme_1">#bbffc600</item>
+    <item type="drawable" name="chat_theme_2">#bb5eacdc</item>
+    <item type="drawable" name="chat_theme_3">#bbe73072</item>
+    <item type="drawable" name="chat_theme_4">#bba1496f</item>
+    <item type="drawable" name="chat_theme_5">#bbf3873f</item>
+</resources>

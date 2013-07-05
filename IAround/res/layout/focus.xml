@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:iaround="http://schemas.android.com/apk/res/net.iaround.android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    android:orientation="vertical" >
+
+    <net.iaround.android.ui.common.IARActionBar
+        android:id="@+id/focus_action_bar"
+        iaround:style="title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        iaround:icon="@drawable/sb_i_am_the_focus"
+        iaround:menu="@drawable/i_am_focus"
+        iaround:title="@string/i_am_the_focus" >
+    </net.iaround.android.ui.common.IARActionBar>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <net.iaround.android.ui.common.IARFocusTitle
+                 android:id="@+id/focus_title"
+                android:layout_width="fill_parent"
+                android:layout_height="280dip"
+                android:clickable="true"
+                iaround:image="@drawable/focus_image"
+                iaround:image_1="@drawable/focus_image1"
+                iaround:image_1_text="2小时"
+                iaround:image_2="@drawable/focus_image2"
+                iaround:image_2_text="5小时"
+                iaround:image_3="@drawable/focus_image3"
+                iaround:image_3_text="8小时"
+                iaround:image_4="@drawable/focus_image4"
+                iaround:image_4_text="5小时"
+                iaround:image_left="@drawable/focus_left"
+                iaround:image_left_text="7小时"
+                iaround:image_right="@drawable/focus_right"
+                iaround:image_right_text="7小时"
+                iaround:image_text="3小时" >
+            </net.iaround.android.ui.common.IARFocusTitle>
+
+            <net.iaround.android.ui.common.IARGridView
+                android:id="@+id/focus_grid"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/white"
+                android:cacheColorHint="@color/transparent"
+                android:gravity="center"
+                android:horizontalSpacing="4dip"
+                android:listSelector="@color/transparent"
+                android:numColumns="4"
+                android:padding="2dip"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="4dip" >
+            </net.iaround.android.ui.common.IARGridView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
